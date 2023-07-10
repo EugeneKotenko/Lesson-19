@@ -1,0 +1,41 @@
+.recipe-form input[type="text"],
+.recipe-form textarea,
+.recipe-form button {
+	margin-bottom: 10px;
+	resize: none;
+}
+
+body {
+	max-width: 400px;
+}
+
+.recipe-form,
+.recipe-search,
+.recipe-list,
+.recipe-details {
+	padding: 20px;
+}
+
+#addRecipeBtn,
+#cookingTime,
+#name,
+#ingredients,
+#instructions,
+#timeSearch,
+#searchByTimeBtn,
+#ingredientsSearch,
+#searchByIngredientsBtn {
+	border: solid rgba(red, green, blue, alpha);
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.recipe-list li {
+	margin-bottom: 10px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.recipe-details {
+	margin-top: 20px;
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Книга рецептів</h1>
+
+<div class="recipe-form">
+	<h2>Додати рецепт</h2>
+	<input type="text" id="name" placeholder="Назва">
+	<input type="text" id="ingredients" placeholder="Інгридієнти, через кому">
+	<textarea id="instructions" placeholder="інструкція"></textarea>
+	<input type="number" id="cookingTime" placeholder="час приготування">
+	<button id="addRecipeBtn">Додати рецепт</button>
+</div>
+
+<div class="recipe-search">
+	<h2>Пошук (в консолі)</h2>
+	<input type="number" id="timeSearch" placeholder="По часу">
+	<button id="searchByTimeBtn">пошук</button>
+	<input type="text" id="ingredientsSearch" placeholder="По інгридієнтам">
+	<button id="searchByIngredientsBtn">пошук</button>
+</div>
+
+<div class="recipe-list">
+	<h2>Рецепти</h2>
+	<ul id="recipes"></ul>
+</div>
+
+<div class="recipe-details">
+	<h2>Інфо про рецепти</h2>
+	<h3 id="recipeName"></h3>
+	<p id="recipeIngredients"></p>
+	<p id="recipeInstructions"></p>
+	<p id="recipeCookingTime"></p>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
